@@ -1,0 +1,6 @@
+framework module Pods_finialTestBookStore {
+  umbrella header "Pods-finialTestBookStore-umbrella.h"
+
+  export *
+  module * { export * }
+}

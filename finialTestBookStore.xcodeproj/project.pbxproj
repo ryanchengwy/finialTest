@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84DF8229C32A92CBF2B13E40 /* Pods_finialTestBookStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A024F6A4D444989CD2BB92AD /* Pods_finialTestBookStore.framework */; };
+		947D16CD1C5C93E600AF98D3 /* BookSummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947D16CC1C5C93E600AF98D3 /* BookSummaryTableViewCell.swift */; };
+		947D16CF1C5C9DC200AF98D3 /* bookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947D16CE1C5C9DC200AF98D3 /* bookTableViewController.swift */; };
 		94B7272E1C59B1E8005957DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B7272D1C59B1E8005957DF /* AppDelegate.swift */; };
 		94B727301C59B1E8005957DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B7272F1C59B1E8005957DF /* ViewController.swift */; };
 		94B727331C59B1E8005957DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B727311C59B1E8005957DF /* Main.storyboard */; };
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		74AA257FD298175A195B03C8 /* Pods-finialTestBookStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finialTestBookStore.release.xcconfig"; path = "Pods/Target Support Files/Pods-finialTestBookStore/Pods-finialTestBookStore.release.xcconfig"; sourceTree = "<group>"; };
+		947D16CC1C5C93E600AF98D3 /* BookSummaryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookSummaryTableViewCell.swift; sourceTree = "<group>"; };
+		947D16CE1C5C9DC200AF98D3 /* bookTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bookTableViewController.swift; sourceTree = "<group>"; };
 		94B7272A1C59B1E8005957DF /* finialTestBookStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finialTestBookStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B7272D1C59B1E8005957DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94B7272F1C59B1E8005957DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +42,8 @@
 		94B7273E1C59B1E8005957DF /* finialTestBookStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finialTestBookStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B727421C59B1E8005957DF /* finialTestBookStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finialTestBookStoreTests.swift; sourceTree = "<group>"; };
 		94B727441C59B1E8005957DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A024F6A4D444989CD2BB92AD /* Pods_finialTestBookStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_finialTestBookStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C1EA50B16E0DF749A6F867 /* Pods-finialTestBookStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finialTestBookStore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-finialTestBookStore/Pods-finialTestBookStore.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DF8229C32A92CBF2B13E40 /* Pods_finialTestBookStore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +71,8 @@
 				94B7272C1C59B1E8005957DF /* finialTestBookStore */,
 				94B727411C59B1E8005957DF /* finialTestBookStoreTests */,
 				94B7272B1C59B1E8005957DF /* Products */,
+				E2C59178F3C50D5E680E6EA7 /* Pods */,
+				95BAA54B1F3383145A64F314 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +94,8 @@
 				94B727341C59B1E8005957DF /* Assets.xcassets */,
 				94B727361C59B1E8005957DF /* LaunchScreen.storyboard */,
 				94B727391C59B1E8005957DF /* Info.plist */,
+				947D16CC1C5C93E600AF98D3 /* BookSummaryTableViewCell.swift */,
+				947D16CE1C5C9DC200AF98D3 /* bookTableViewController.swift */,
 			);
 			path = finialTestBookStore;
 			sourceTree = "<group>";
@@ -96,6 +109,23 @@
 			path = finialTestBookStoreTests;
 			sourceTree = "<group>";
 		};
+		95BAA54B1F3383145A64F314 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A024F6A4D444989CD2BB92AD /* Pods_finialTestBookStore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2C59178F3C50D5E680E6EA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9C1EA50B16E0DF749A6F867 /* Pods-finialTestBookStore.debug.xcconfig */,
+				74AA257FD298175A195B03C8 /* Pods-finialTestBookStore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +133,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94B727471C59B1E8005957DF /* Build configuration list for PBXNativeTarget "finialTestBookStore" */;
 			buildPhases = (
+				07050AC7BBF467E858ADB14C /* Check Pods Manifest.lock */,
 				94B727261C59B1E8005957DF /* Sources */,
 				94B727271C59B1E8005957DF /* Frameworks */,
 				94B727281C59B1E8005957DF /* Resources */,
+				80BE25A5B5732E82142F0ECE /* Embed Pods Frameworks */,
+				A4A7F96607B621CEBFC394D8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,6 +225,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07050AC7BBF467E858ADB14C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		80BE25A5B5732E82142F0ECE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-finialTestBookStore/Pods-finialTestBookStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4A7F96607B621CEBFC394D8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-finialTestBookStore/Pods-finialTestBookStore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		94B727261C59B1E8005957DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -199,6 +280,8 @@
 			files = (
 				94B727301C59B1E8005957DF /* ViewController.swift in Sources */,
 				94B7272E1C59B1E8005957DF /* AppDelegate.swift in Sources */,
+				947D16CF1C5C9DC200AF98D3 /* bookTableViewController.swift in Sources */,
+				947D16CD1C5C93E600AF98D3 /* BookSummaryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +408,7 @@
 		};
 		94B727481C59B1E8005957DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9C1EA50B16E0DF749A6F867 /* Pods-finialTestBookStore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = finialTestBookStore/Info.plist;
@@ -336,6 +420,7 @@
 		};
 		94B727491C59B1E8005957DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74AA257FD298175A195B03C8 /* Pods-finialTestBookStore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = finialTestBookStore/Info.plist;
@@ -388,6 +473,7 @@
 				94B727491C59B1E8005957DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94B7274A1C59B1E8005957DF /* Build configuration list for PBXNativeTarget "finialTestBookStoreTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +482,7 @@
 				94B7274C1C59B1E8005957DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
